@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Birthday</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+  </head>
+  <body>
+    <audio id="bgMusic" src="music/song1.mp3" loop></audio>
+    <canvas id="stars"></canvas>
+
+    <!-- START -->
+    <div id="startScreen" class="screen">
+      <button id="startBtn" class="glowBtn">Fhadillah Klik Dong 💖</button>
+    </div>
+
+    <!-- KUE -->
+    <div id="cakeScreen" class="screen hidden">
+      <div class="cake">
+        <div class="layer layer-bottom"></div>
+        <div class="layer layer-middle"></div>
+        <div class="layer layer-top"></div>
+
+        <div class="candles">
+          <div class="candle"></div>
+          <div class="candle"></div>
+          <div class="candle"></div>
+          <div class="candle"></div>
+          <div class="candle"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALERI -->
+    <div id="galleryScreen" class="screen hidden">
+      <div id="floatingContainer"></div>
+
+      <div id="textUcapan">
+        <h1>🎉 Happy 18th Birthday 🎉</h1>
+        <p>
+          Selamat ulang tahun yang ke-18 FHADILLAH MIFTAHUL JANNAH 💖<br />
+          Semoga panjang umur, sehat selalu, dan semua impianmu tercapai ya
+          sayang✨<br />
+          Selalu bahagia dan jadi yang terbaik hehehe🌷 Dan terima kasih sudah
+          jadi bagian penting dalam hidupku, semoga kita bisa terus bersama-sama
+          melewati banyak momen indah ke depannya!💖
+        </p>
+      </div>
+    </div>
+
+    <!-- OVERLAY -->
+    <div id="overlay" class="hidden">
+      <img id="zoomImg" />
+      <h1 id="nama">Fhadillah 💖</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
